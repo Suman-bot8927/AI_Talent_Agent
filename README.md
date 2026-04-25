@@ -61,7 +61,7 @@ http://127.0.0.1:5000
 
 📸 Screenshots
 
-Screenshot 2026-04-25 224704.png
+[Screenshot 2026-04-25 224704.png](https://github.com/Suman-bot8927/AI_Talent_Agent/commit/19202f0ea95ec795a2026066267093b55155746a)
 
 ---
 
