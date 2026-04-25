@@ -62,7 +62,7 @@ http://127.0.0.1:5000
 📸 Screenshots
 
 
-Screenshot.png
+! [AI Talent Agent UI] (Screenshot.png)
 
 ---
 
