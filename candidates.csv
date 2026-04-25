@@ -1,0 +1,11 @@
+id,name,job_title,skills,experience,email,location,expected_salary,availability,rating
+1,Amit Sharma,Data Scientist,"Python, Machine Learning, SQL",2,amit@gmail.com,India,600000,Immediate,4.5
+2,Riya Das,Frontend Developer,"HTML, CSS, JavaScript, React",1,riya@gmail.com,India,400000,15 Days,4.2
+3,John Miller,Backend Developer,"Python, Django, REST API",3,john@gmail.com,USA,900000,Immediate,4.7
+4,Sneha Roy,Data Analyst,"Excel, Power BI, SQL",2,sneha@gmail.com,India,500000,30 Days,4.1
+5,David Lee,DevOps Engineer,"AWS, Docker, Kubernetes",4,david@gmail.com,Canada,1100000,Immediate,4.6
+6,Priya Singh,Backend Developer,"Java, Spring Boot, MySQL",3,priya@gmail.com,India,700000,15 Days,4.3
+7,Michael Brown,Full Stack Developer,"React, Node.js, MongoDB",5,michael@gmail.com,USA,1200000,Immediate,4.8
+8,Anjali Gupta,Data Scientist,"Python, Pandas, NumPy",1,anjali@gmail.com,India,450000,Immediate,3.9
+9,Chris Evans,Frontend Developer,"Angular, TypeScript, HTML",4,chris@gmail.com,UK,850000,30 Days,4.4
+10,Rahul Verma,Data Analyst,"SQL, Tableau, Excel",2,rahul@gmail.com,India,550000,Immediate,4.0
