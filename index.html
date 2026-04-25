@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Talent Agent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 AI Talent Scouting Agent</h1>
+
+    <form method="POST">
+        <textarea name="jd" placeholder="Enter Job Description..." required></textarea>
+        <br><br>
+        <button type="submit">Find Candidates</button>
+    </form>
+
+    {% if results %}
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Skills</th>
+            <th>Match</th>
+            <th>Interest</th>
+            <th>Final</th>
+            <th>Reason</th>
+        </tr>
+
+        {% for row in results %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ row.name }}</td>
+            <td>{{ row.role }}</td>
+            <td>{{ row.skills }}</td>
+            <td>{{ row.match_score }}</td>
+            <td>{{ row.interest_score }}</td>
+            <td>{{ row.final_score }}</td>
+            <td>{{ row.reason }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</div>
+
+</body>
+</html>
