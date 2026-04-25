@@ -61,7 +61,7 @@ http://127.0.0.1:5000
 
 📸 Screenshots
 
-(Add your project screenshots here)
+Screenshot 2026-04-25 224704.png
 
 ---
 
