@@ -1,4 +1,4 @@
-# 🤖 AI Talent Scouting Agent
+# 🤖 AI-Powered Talent Scouting & Engagement Agent
 
 ## 🚀 Project Overview
 
