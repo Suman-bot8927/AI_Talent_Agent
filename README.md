@@ -63,6 +63,10 @@ Example:
 
 ---
 
+## 🏗️ Architecture Diagram
+
+![Architecture](architecture.png)
+
 ## 🏗️ Architecture
 
 ```
