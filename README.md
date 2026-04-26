@@ -2,38 +2,41 @@
 
 ## 🚀 Project Overview
 
-The **AI Talent Scouting Agent** is an intelligent recruitment assistant that automates candidate screening and matching.
+The **AI-Powered Talent Scouting & Engagement Agent** is a smart recruitment assistant designed to automate candidate screening and ranking.
 
-Recruiters often spend hours reviewing resumes manually. This project simplifies the process by taking a **Job Description (JD)** as input and returning a **ranked shortlist of candidates** based on:
+Recruiters often spend hours manually filtering candidates. This system simplifies the process by:
 
-* 🎯 **Match Score** (skill relevance)
-* 💡 **Interest Score** (simulated engagement)
-* 🏆 **Final Score** (combined ranking)
+* Taking a **Job Description (JD)** as input
+* Matching candidates based on **skills and role**
+* Calculating **Match Score** and **Interest Score**
+* Generating a **ranked shortlist** with explanations
+* Simulating an **AI engagement response**
 
 ---
 
 ## 🔗 Live Demo
 
-👉 https://ai-talent-agent.onrender.com
+👉 [https://ai-talent-agent-1.onrender.com]
 
 ---
 
 ## 💡 Key Features
 
-* 📄 Input Job Description (JD)
-* 🧠 Automatic role detection (Data Analyst, Backend, etc.)
+* 📄 Job Description input
+* 🎯 Automatic role detection (Data Analyst, Backend, etc.)
 * 🤖 Skill-based candidate matching
-* 📊 Match Score + Interest Score calculation
+* 📊 Match Score & Interest Score calculation
 * 🏆 Ranked candidate shortlist
-* 💬 Explainable output (matched skills shown)
-* 🌐 Clean web interface using Flask
+* 💬 AI-like engagement simulation
+* 🔍 Explainable results (matched skills shown)
+* 🌐 Clean and responsive web interface
 
 ---
 
 ## 🧠 How It Works
 
 1. User enters a Job Description
-2. System detects the target role
+2. System detects the **target role**
 3. Filters candidates based on role
 4. Matches candidate skills with JD keywords
 5. Calculates:
@@ -43,14 +46,42 @@ Recruiters often spend hours reviewing resumes manually. This project simplifies
 6. Computes:
 
    * **Final Score = (Match × 0.8) + (Interest × 0.2)**
-7. Filters candidates with **Final Score ≥ 0.60**
-8. Displays ranked results
+7. Filters candidates with **Final Score ≥ 0.50**
+8. Displays ranked results with AI engagement messages
 
 ---
 
-## 🏗️ Architecture Diagram
+## 🤖 AI Engagement (Simulated)
 
-![Architecture](architecture.png)
+The system includes a **simulated AI engagement agent** that predicts candidate interest.
+
+Example:
+
+* High score → *Highly interested and ready to join*
+* Medium score → *Open to discussion*
+* Low score → *Not very interested*
+
+---
+
+## 🏗️ Architecture
+
+```
+User Input (Job Description)
+        ↓
+Flask Web App (app.py)
+        ↓
+Processing Engine (utils.py)
+        ↓
+Candidate Dataset (CSV)
+        ↓
+Scoring System
+   → Match Score
+   → Interest Score
+        ↓
+AI Engagement Simulation
+        ↓
+Ranked Output (UI)
+```
 
 ---
 
@@ -72,14 +103,14 @@ AI_Talent_Agent/
 ├── utils.py
 ├── requirements.txt
 │
+├── data/
+│   └── candidates.csv
+│
 ├── templates/
 │   └── index.html
 │
 ├── static/
 │   └── style.css
-│
-├── data/
-│   └── candidates.csv
 │
 └── README.md
 ```
@@ -89,17 +120,17 @@ AI_Talent_Agent/
 ## 📊 Sample Input
 
 ```
-Seeking a Data Analyst skilled in SQL, Excel, and Power BI
+Data Analyst with SQL, Excel, Power BI
 ```
 
 ---
 
 ## 📊 Sample Output
 
-| Rank | Name        | Role         | Final Score |
-| ---- | ----------- | ------------ | ----------- |
-| 1    | Rahul Verma | Data Analyst | 0.67        |
-| 2    | Sneha Roy   | Data Analyst | 0.66        |
+| Rank | Name        | Role         | Final Score | AI Engagement      |
+| ---- | ----------- | ------------ | ----------- | ------------------ |
+| 1    | Rahul Verma | Data Analyst | 0.72        | Highly interested  |
+| 2    | Sneha Roy   | Data Analyst | 0.66        | Open to discussion |
 
 ---
 
@@ -127,7 +158,7 @@ http://127.0.0.1:10000
 
 ## 🎯 Use Case
 
-This project is useful for:
+This system helps:
 
 * 👨‍💼 Recruiters
 * 🏢 HR Teams
@@ -140,15 +171,15 @@ to quickly shortlist candidates based on job requirements.
 ## 🔮 Future Improvements
 
 * Resume parsing (PDF/DOCX)
-* AI-based candidate interest detection
+* Real AI chatbot integration
 * LinkedIn / GitHub integration
-* Machine Learning-based scoring model
+* Machine Learning-based scoring
 
 ---
 
 ## 🎥 Demo Video
 
-(Add your video link here after recording)
+(Add your demo video link here)
 
 ---
 
